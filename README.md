@@ -9,6 +9,7 @@ Tutorial how to use GNU make on Travis.
 
  * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_make_hello_world.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_make_hello_world) [Travis CI make example](https://github.com/richelbilderbeek/travis_make_hello_world) [hello_world](https://github.com/richelbilderbeek/travis_make_hello_world): 'Hello World', a first simple Makefile, a minimal example
  * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_make_pdflatex.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_make_pdflatex) [pdflatex](https://github.com/richelbilderbeek/travis_make_pdflatex): Convert LaTeX to PDF
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_make_dot.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_make_dot) [dot](https://github.com/richelbilderbeek/travis_make_dot): Convert `.dot` file to `.png` using `dot`
 
 ## TODO
 
