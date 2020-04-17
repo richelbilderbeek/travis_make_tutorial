@@ -3,3 +3,7 @@ all: travis_make_hello_world/Makefile
 
 travis_make_hello_world/Makefile:
 	git clone https://github.com/richelbilderbeek/travis_make_hello_world.git
+
+clean:
+	rm -rf travis_make_hello_world
+
