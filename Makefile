@@ -15,5 +15,5 @@ travis_make_pdflatex/Makefile:
 	git clone https://github.com/richelbilderbeek/travis_make_pdflatex.git
 
 clean:
-	rm -rf repo_names
+	rm -rf $(repo_names)
 
