@@ -7,7 +7,7 @@ Branch   |[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)
 
 Tutorial how to use GNU make on Travis.
 
-Build status                                                                                                                                                                 |Link                                                                              |description
+Build status                                                                                                                                                                 |Link                                                                              |Description
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------
 [![Build Status](https://travis-ci.org/richelbilderbeek/travis_make_hello_world.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_make_hello_world)          |[hello_world](https://github.com/richelbilderbeek/travis_make_hello_world)        | 'Hello World', a first simple Makefile, a minimal example
 [![Build Status](https://travis-ci.org/richelbilderbeek/travis_make_one_step.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_make_one_step)                |[one_step](https://github.com/richelbilderbeek/travis_make_one_step)              | Simple pipeline of one step
