@@ -1,18 +1,18 @@
-repo_names = travis_make_hello_world travis_make_pdflatex travis_make_one_step
+repo_names = \
+  travis_make_hello_world \
+  travis_make_pdflatex \
+  travis_make_one_step \
+  travis_make_two_steps
 
-all: travis_make_hello_world/Makefile travis_make_pdflatex/Makefile travis_make_one_step/Makefile
-	cd travis_make_hello_world; make > /dev/null ; cd ..
-	cd travis_make_one_step; make > /dev/null ; cd ..
-	cd travis_make_pdflatex; make > /dev/null ; cd ..
+makefile_names = $(foreach repo_name,$(repo_names),$(repo_name)/Makefile)
 
-travis_make_hello_world/Makefile:
-	git clone https://github.com/richelbilderbeek/travis_make_hello_world.git
+all: $(makefile_names)
 
-travis_make_one_step/Makefile:
-	git clone https://github.com/richelbilderbeek/travis_make_one_step.git
+$(repo_names):
+	git clone https://github.com/richelbilderbeek/$@.git
 
-travis_make_pdflatex/Makefile:
-	git clone https://github.com/richelbilderbeek/travis_make_pdflatex.git
+$(makefile_names): $(repo_names)
+	cd $(dir $@) ; make || cd ..
 
 clean:
 	rm -rf $(repo_names)
