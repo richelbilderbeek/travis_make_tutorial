@@ -14,6 +14,11 @@ $(repo_names):
 $(makefile_names): $(repo_names)
 	cd $(dir $@) && $(MAKE)
 
+to_develop:
+	for repo_name in $(repo_names); do \
+	  cd $$repo_name && git checkout develop ; cd .. ; \
+	done
+
 clean:
 	rm -rf $(repo_names)
 
