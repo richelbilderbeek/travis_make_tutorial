@@ -16,7 +16,17 @@ $(makefile_names): $(repo_names)
 
 to_develop:
 	for repo_name in $(repo_names); do \
-	  cd $$repo_name && git checkout develop ; cd .. ; \
+	  cd $$repo_name && git checkout develop && cd .. ; \
+	done
+
+push:
+	for repo_name in $(repo_names); do \
+	  cd $$repo_name && git push && cd .. ; \
+	done
+
+pull:
+	for repo_name in $(repo_names); do \
+	  cd $$repo_name && git pull && cd .. ; \
 	done
 
 clean:
