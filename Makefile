@@ -12,7 +12,7 @@ $(repo_names):
 	git clone https://github.com/richelbilderbeek/$@.git
 
 $(makefile_names): $(repo_names)
-	cd $(dir $@) ; make || cd ..
+	cd $(dir $@) && $(MAKE)
 
 clean:
 	rm -rf $(repo_names)
