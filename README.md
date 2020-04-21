@@ -7,9 +7,13 @@ Branch   |[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)
 
 Tutorial how to use GNU make on Travis.
 
- * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_make_hello_world.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_make_hello_world) [Travis CI make example](https://github.com/richelbilderbeek/travis_make_hello_world) [hello_world](https://github.com/richelbilderbeek/travis_make_hello_world): 'Hello World', a first simple Makefile, a minimal example
- * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_make_pdflatex.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_make_pdflatex) [pdflatex](https://github.com/richelbilderbeek/travis_make_pdflatex): Convert LaTeX to PDF
- * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_make_dot.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_make_dot) [dot](https://github.com/richelbilderbeek/travis_make_dot): Convert `.dot` file to `.png` using `dot`
+Build status                                                                                                                                                                 |Link                                                                              |description
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------
+[![Build Status](https://travis-ci.org/richelbilderbeek/travis_make_hello_world.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_make_hello_world)          |[hello_world](https://github.com/richelbilderbeek/travis_make_hello_world)        | 'Hello World', a first simple Makefile, a minimal example
+[![Build Status](https://travis-ci.org/richelbilderbeek/travis_make_one_step.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_make_one_step)                |[one_step](https://github.com/richelbilderbeek/travis_make_one_step)              | Simple pipeline of one step
+[![Build Status](https://travis-ci.org/richelbilderbeek/travis_make_two_steps.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_make_two_steps)              |[two_steps](https://github.com/richelbilderbeek/travis_make_two_steps)            | Simple pipeline of two steps
+[![Build Status](https://travis-ci.org/richelbilderbeek/travis_make_pdflatex.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_make_pdflatex)                |[pdflatex](https://github.com/richelbilderbeek/travis_make_pdflatex)              | Convert LaTeX to PDF
+[![Build Status](https://travis-ci.org/richelbilderbeek/travis_make_dot.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_make_dot)                          |[dot](https://github.com/richelbilderbeek/travis_make_dot)                        | Convert `.dot` file to `.png` using `dot`
 
 ## TODO
 
