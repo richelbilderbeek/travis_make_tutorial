@@ -1,4 +1,10 @@
 language: r
+dist: bionic
+
+install:
+  - sudo apt update
+  # Needed for 'dot'
+  - sudo apt install graphviz
 
 script:
   - make
